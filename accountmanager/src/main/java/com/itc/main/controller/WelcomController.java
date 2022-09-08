@@ -21,7 +21,7 @@ public class WelcomController {
 
 	    @GetMapping("/")
 	    public String welcome() {
-	        return "Welcome to imtiaz world !!";
+	        return "Welcome to MUZIX APP !!";
 	    }
 
 	    @PostMapping("/authenticate")
